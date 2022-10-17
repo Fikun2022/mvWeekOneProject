@@ -1,0 +1,90 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: orange;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+
+.wrapper {
+  
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  display: grid;
+  height: 81vw;
+  width: 100vw;
+  margin: 0;
+}
+
+
+.wrapper img {
+  width: 100vw;
+  height: 81vw;
+}
+
+#rideCymbal {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  height: 40px;
+  margin-top: 40px;
+}
+
+#crashCymbal {
+  grid-column-start: 9;
+  grid-row-start: 1;
+  height: 40px;
+  margin-top: 40px;
+}
+
+#mediumTom {
+  grid-column-start: 5;
+  grid-row-start: 3;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#highTom {
+  grid-column-start: 7;
+  grid-row-start: 3;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#hiHatCymbal {
+  grid-column-start: 9;
+  grid-row-start: 3;
+  height: 25x;
+  margin-top: 25px;
+}
+
+#floorTom {
+  grid-column-start: 4;
+  grid-row-start: 5;
+  height: 40px;
+  margin-top: 2px;
+}
+
+#snareDrum {
+  grid-column-start: 8;
+  grid-row-start: 5;
+  height: 40px;
+  margin-top: 2px;
+}
+
+
+#bassDrum {
+  grid-column-start: 6;
+  grid-row-start: 7;
+  height: 40px;
+  margin-top: 2px;
+}
+
+
+
+
